@@ -10,6 +10,7 @@ h1 {
 } /* Header font, size, alignment */
 
 body {
+    text-align: center;
     background: #d7ebff;
     font-size: 100%;
     font-family: 'Times New Roman', serif;
@@ -20,10 +21,24 @@ body {
     text-decoration: none;
 } /* Nicole Turkey Links */
 
+#intro-photo {
+    width: 930px;
+    border: 5px rgb(149, 174, 243) solid;
+}
 
+#intro-photo:hover {
+    border-color: rgb(93, 133, 245);
+}
+
+#store img {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    border: 5px rgb(149, 174, 243) solid;
+}
 .centre {
     width: 960px;
-    margin: 0 auto;
+    margin: 0px auto;
     background: #ffffff;
     padding: 0 45px 20px;
 } /* Alignment of middle white space with content */
