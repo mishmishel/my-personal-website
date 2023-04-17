@@ -4,10 +4,14 @@ head {
 
 h1 {
     font-size: 5em;
-    font-family: 'Baskerville', serif;
+    font-family: 'Times New Roman', sans-serif;
     margin: 0 0 5px;
     padding-top: 1%;
 } /* Header font, size, alignment */
+
+h2 {
+    font-weight: initial;
+}
 
 body {
     text-align: center;
@@ -15,7 +19,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 100%;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Baskerville', serif;
 }
 
 .nicole {
@@ -24,7 +28,7 @@ body {
 } /* Nicole Turkey Links */
 
 .nicole:hover {
-    color: rgb(93, 133, 245);
+    color: rgb(96, 133, 237);
 } /* Nicole Turkey Link Colour upon hover */
 
 #intro-photo {
@@ -33,7 +37,7 @@ body {
 } /* Border and width of first image */
 
 #intro-photo:hover {
-    border-color: rgb(93, 133, 245);
+    border-color: rgb(96, 133, 237);
 } /* Intro Photo upon hover */
 
 .img-links {
@@ -48,7 +52,7 @@ body {
 }
 
 .photo-row:hover {
-    border-color: rgb(93, 133, 245);
+    border-color:rgb(96, 133, 237);
 }
 
 #store img {
@@ -58,9 +62,24 @@ body {
 .centre {
     width: 960px;
     margin: 0px auto;
-    background: #ffffff;
+    background: rgb(245, 247, 254);
     padding: 0 45px 20px;
 } /* Alignment of middle white space with content */
+
+form {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+    display: block;
+  }
 
 .feet {
     font-size: 0.8em;
