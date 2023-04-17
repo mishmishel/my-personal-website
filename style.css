@@ -33,13 +33,41 @@ body {
 } /* Nicole Turkey Link Colour upon hover */
 
 #intro-photo {
-    width: 930px;
+    width: 500px;
     border: 5px rgb(149, 174, 243) solid;
 } /* Border and width of first image */
 
 #intro-photo:hover {
     border-color: rgb(96, 133, 237);
 } /* Intro Photo upon hover */
+
+.column {
+    display: flex;
+}
+
+.gallery {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.list {
+    flex: 1;
+    margin-left: 20px;
+}
+
+ul {
+    list-style-position: outside;
+    margin-left: 0;
+    text-align: center;
+    padding-left: 140px;
+}
+
+li {
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    width: max-content;
+}
 
 .img-links {
     text-decoration: none;
