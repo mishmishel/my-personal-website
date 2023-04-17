@@ -29,7 +29,7 @@ body {
 
 .website-links a {
     display: inline-block;
-    color: #37a8e1;
+    color: #000000;
     text-decoration: none;
     margin-right: 30px;
     margin-left: 30px;
@@ -95,6 +95,18 @@ li {
     width: 30%;
     margin: 1%;
     border: 5px rgb(149, 174, 243) solid;
+}
+
+.photo-row p {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: larger;
 }
 
 .photo-row:hover {
