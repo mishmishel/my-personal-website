@@ -66,20 +66,36 @@ body {
     padding: 0 45px 20px;
 } /* Alignment of middle white space with content */
 
+.container {
+    display: flex;
+}
+.map {
+    flex: 1;
+}
+
+iframe:hover {
+    border-color:rgb(96, 133, 237) !important;
+}
+
+.form {
+    flex: 1;
+    margin-left: 20px;
+}
+
 form {
     text-align: center;
-}
+} /* Align text within form in the center of form */
 
 input[type="text"],
 input[type="email"],
 input[type="submit"] {
   display: block;
   margin: 0 auto;
-}
+} /*Ensure inputs take up one line */
 
 label {
     display: block;
-  }
+  } /* Ensure labels take up one line */
 
 .feet {
     font-size: 0.8em;
