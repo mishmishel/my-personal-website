@@ -170,9 +170,15 @@ input[type="submit"] {
   margin: 0 auto;
 } /*Ensure inputs take up one line */
 
+input[type=submit]{
+    font-family: 'Baskerville', serif;
+    width: 5em;
+    height: 2em;
+} /* Change font and size of submit button */
+
 label {
     display: block;
-  } /* Ensure labels take up one line */
+} /* Ensure labels take up one line */
 
 #home-button {
     display: inline-block;
