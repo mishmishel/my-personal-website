@@ -25,7 +25,7 @@ body {
     margin-bottom: 0;
     font-size: 100%;
     font-family: 'Baskerville', serif;
-}
+} /* Alignment of Body */
 
 .website-links a {
     display: inline-block;
@@ -52,6 +52,7 @@ body {
 #intro-photo {
     width: 500px;
     border: 5px rgb(149, 174, 243) solid;
+    border-radius: 30px;
 } /* Border and width of first image */
 
 #intro-photo:hover {
@@ -60,31 +61,31 @@ body {
 
 .column {
     display: flex;
-}
+} /* Displaying gallery image and list side by side */
 
 .gallery {
     flex: 1;
     padding-left: 10px;
-}
+} /* Displaying gallery image and list side by side */
 
 .list {
     flex: 1;
     margin-left: 20px;
-}
+} /* Displaying gallery image and list side by side */
 
 ul {
     list-style-position: outside;
     margin-left: 0;
     text-align: center;
     padding-left: 140px;
-}
+} /* Unordered list styling */
 
 li {
     margin-left: 20px;
     padding-left: 10px;
     margin-bottom: 5px;
     width: max-content;
-}
+} /* List content styling */
 
 .img-links {
     text-decoration: none;
@@ -94,28 +95,32 @@ li {
     display: inline-block;
     width: 30%;
     margin: 1%;
+} /* Three images in a row display */
+
+.photo-row img {
     border: 5px rgb(149, 174, 243) solid;
-}
+    border-radius: 30px;
+} /* Borders of images themselves */
+
+.photo-row img:hover {
+    border-color:rgb(96, 133, 237);
+} /* Border colour change upon hover for images */
 
 .photo-row p {
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
+} /* Paragraphs under images display */
 
 figcaption {
     margin-top: 10px;
     font-size: larger;
-}
-
-.photo-row:hover {
-    border-color:rgb(96, 133, 237);
-}
+} /* Figure caption styling  */
 
 #store img {
     width: 100%;
-}
+} /* Ensures normal width of images */
 
 .centre {
     width: 960px;
@@ -123,10 +128,6 @@ figcaption {
     background: rgb(245, 247, 254);
     padding: 0 45px 20px;
 } /* Alignment of middle white space with content */
-
-#conclusion p {
-    margin-bottom: 0px;
-}
 
 .container {
     margin-top: 0px;
@@ -136,9 +137,17 @@ figcaption {
     flex: 1;
 }
 
+#conclusion p {
+    margin-bottom: 0px;
+} /* Zero margin on bottom of conclusion paragraph */
+
+iframe {
+    border-radius: 30px;
+} /* iframe border softening */
+
 iframe:hover {
     border-color:rgb(96, 133, 237) !important;
-}
+} /* iframe border colour upon hover - need !important otherwise doesn't work */
 
 .form {
     flex: 1;
@@ -148,7 +157,7 @@ iframe:hover {
 ::placeholder {
     color: #d3d2d2;
     font-family: 'Baskerville', serif;
-}
+} /* Placeholder text within form */
 
 form {
     text-align: center;
@@ -164,6 +173,17 @@ input[type="submit"] {
 label {
     display: block;
   } /* Ensure labels take up one line */
+
+#home-button {
+    display: inline-block;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+} /* Link to take to top of page */
+
+#home-button:hover {
+    color: rgb(96, 133, 237);
+} /* Link to take to top of page upon hover */
 
 .feet {
     font-size: 0.8em;
