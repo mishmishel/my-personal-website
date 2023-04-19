@@ -132,10 +132,11 @@ figcaption {
 .container {
     margin-top: 0px;
     display: flex;
-}
+} /* Form and Map display */
+
 .map {
     flex: 1;
-}
+} /* Positioning of map */
 
 #conclusion p {
     margin-bottom: 0px;
@@ -172,8 +173,10 @@ input[type="submit"] {
 
 input[type=submit]{
     font-family: 'Baskerville', serif;
+    margin-top: 20px;
     width: 5em;
     height: 2em;
+    display: inline-block;
 } /* Change font and size of submit button */
 
 label {
